@@ -3,7 +3,7 @@ spring:
     driverClassName: org.postgresql.Driver
     username: debuggeandoideas
     password: udemy
-    url: dbc:postgresql://localhost:5432/web-sites
+    url: jdbc:postgresql://localhost:5432/web-sites
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 logging:
