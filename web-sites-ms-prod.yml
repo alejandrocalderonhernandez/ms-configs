@@ -1,8 +1,8 @@
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
-    username: debuggeandoideas
-    password: udemy
+    username: debuggeandoideas-prod
+    password: udemy-prod
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 logging:
