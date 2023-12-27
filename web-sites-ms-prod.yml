@@ -1,18 +1,6 @@
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
-    username: debuggeandoideas-prod
-    password: udemy-prod
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: DEBUG
-        type:
-          descriptor:
-            sql:
-              BasicBinder: TRACE
-  file:
-    name: logs/logs.log
+    username: debuggeandoideas
+    password: udemy
+    url: jdbc:postgresql://db-web-sites:5432/web-sites
