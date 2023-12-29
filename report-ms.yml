@@ -3,5 +3,5 @@ report:
 
 
 websites:
-  fallback-url: "http://localhost:8787/web-sites-ms-failover/company/{name}"
+  fallback-url: "http://localhost:8787/web-sites-ms-fallback/company/{name}"
  
